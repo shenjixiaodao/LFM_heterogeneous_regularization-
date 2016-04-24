@@ -1,6 +1,6 @@
+#使用vss计算相似的 个性化异构相似约束 预测模型
 #归一化 HumanNet 的gene-gene相似矩阵
 nor_full_GeneGene = (full_GeneGene - min(full_GeneGene[which(full_GeneGene>0)])) / (max(full_GeneGene) - min(full_GeneGene[which(full_GeneGene>0)]))
-
 set.seed(123456789)
 #nnumber : 负样本比率
 # NegativeSample : 计算得到的大概率负样本实例子， SpecialSample ：计算得到的小概率负样本实例子
