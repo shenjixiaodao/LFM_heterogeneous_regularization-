@@ -73,7 +73,7 @@ for(r in 1:nrow(temp_fHGP)){
         train_phene = c(train_phene,c)
       }
     }
-    if(TRUE){
+    if(FALSE){
       if(sample(c(1,0),size = 1, prob = c(0.4,0.6)) & length(which(test_gene==r))==0 &length(which(test_phene==c))==0){
         test_gene = c(test_gene,r)
         test_phene = c(test_phene,c)
