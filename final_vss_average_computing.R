@@ -1,3 +1,4 @@
+#使用vss计算相似的 平均异构相似约束 预测模型
 #归一化 HumanNet 的gene-gene相似矩阵
 nor_full_GeneGene = (full_GeneGene - min(full_GeneGene[which(full_GeneGene>0)])) / (max(full_GeneGene) - min(full_GeneGene[which(full_GeneGene>0)]))
 
