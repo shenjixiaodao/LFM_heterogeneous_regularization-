@@ -22,7 +22,8 @@ for(nnumber in c(2)){
   }
   
   for(ratio in c(1.5)){
-    for(fs in c(10,20,30,40,50,60,70,80)){
+    #for(fs in c(10,20,30,40,50,60,70,80)){
+    for(fs in c(60)){
       for(be in c(0.001)){
         for(al in c(0.5)){
           #--------------------------------
